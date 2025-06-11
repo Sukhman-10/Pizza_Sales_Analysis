@@ -52,24 +52,26 @@ CREATE TABLE pizza_sales (
 📊 SQL Analysis
 The following KPIs were calculated using SQL:
 
-Total Revenue
+- `Total Revenue`
 
-Total Orders
+- `Total Orders`
 
-Total Pizzas Sold
+- `Total Pizzas Sold`
 
-Average Order Value
+- `Average Order Value`
 
-Average Pizzas per Order
+- `Average Pizzas per Order`
 
-Daily & Hourly Sales Trends
+- `Daily & Hourly Sales Trends`
 
-Sales by Category & Size
+- `Sales by Category & Size`
 
-Top & Bottom Performing Pizzas
+- `Top & Bottom Performing Pizzas`
 
 Sample KPI Query:
+```
 SELECT SUM(ROUND(total_price, 2)) AS Total_Revenue FROM pizza_sales;
+```
 
 🔗 Excel Integration
 Data was imported into Excel using the MySQL ODBC Connector:
@@ -86,7 +88,9 @@ This allowed real-time data refresh and seamless pivot table construction.
 Additional transformations included:
 
 Created a new Order Day column using:
+```
 =TEXT([@[order_date]], "dddd")
+```
 
 Structured data into PivotTables for all KPIs and visual components.
 
