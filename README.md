@@ -74,18 +74,18 @@ SELECT SUM(ROUND(total_price, 2)) AS Total_Revenue FROM pizza_sales;
 ```
 
 🔗 Excel Integration
+
 Data was imported into Excel using the MySQL ODBC Connector:
 
-Install MySQL ODBC driver.
+- `Install MySQL ODBC driver.`
 
-Set up a DSN pointing to Pizza_DB.
+- `Set up a DSN pointing to Pizza_DB.`
 
-In Excel: Data > Get Data > From Other Sources > From ODBC.
+- `In Excel: Data > Get Data > From Other Sources > From ODBC.`
 
 This allowed real-time data refresh and seamless pivot table construction.
 
 🧩 Data Transformation in Excel
-Additional transformations included:
 
 Created a new Order Day column using:
 ```
@@ -97,74 +97,60 @@ Structured data into PivotTables for all KPIs and visual components.
 📈 Dashboard Visuals
 The following charts and visuals were added to the Excel Dashboard:
 
-📊 Column Chart: Daily Orders by Weekday
+- `📊 Column Chart: Daily Orders by Weekday`
 
-📉 Line Chart: Hourly Orders Trend
+- `📉 Line Chart: Hourly Orders Trend`
 
-🍩 Donut Chart: % Sales by Pizza Category
+- `🍩 Donut Chart: % Sales by Pizza Category`
 
-🥧 Pie Chart: % Sales by Pizza Size
+- `🥧 Pie Chart: % Sales by Pizza Size`
 
-🔽 Funnel Chart: Quantity Sold by Category
+- `🔽 Funnel Chart: Quantity Sold by Category`
 
-📊 Bar Charts:
+- `📊 Bar Charts: Top 5 and Bottom 5 Selling Pizzas`
 
-Top 5 Best-Selling Pizzas
-
-Bottom 5 Worst-Selling Pizzas
-
-📆 Timeline Slicer: Date-based filtering (yearly, monthly, quarterly)
+- `📆 Timeline Slicer: Date-based filtering (yearly, monthly, quarterly)`
 
 🎨 Dashboard Design
 The dashboard was built on a dedicated sheet using a clean and structured layout:
 
-KPIs at the top for quick insights
+- `KPIs at the top for quick insights`
 
-Trends on the left, category breakdowns on the right
+- `Trends on the left, category breakdowns on the right`
 
-Interactive charts at the bottom
+- `Interactive charts at the bottom`
 
-Consistent color schemes and formatting applied for professional look
+- `Consistent color schemes and formatting applied for professional look`
 
 📌 Key Insights
-Classic pizzas lead in both revenue and volume.
 
-Large and XL sizes dominate sales.
+- `Classic pizzas lead in both revenue and volume.`
 
-Friday and Saturday are peak order days.
+- `Large and XL sizes dominate sales.`
 
-12 PM – 2 PM and 5 PM – 8 PM are the busiest hours.
+- `Friday and Saturday are peak order days.`
 
-Several pizzas underperform and may require reevaluation.
+- `12 PM – 2 PM and 5 PM – 8 PM are the busiest hours.`
+
+- `Several pizzas underperform and may require reevaluation.`
 
 🛠 Tools & Technologies
-Tool	Purpose
-MySQL Workbench	Database design & SQL queries
-MySQL ODBC	Connecting DB to Excel
-Microsoft Excel	Data analysis & visualization
-SQL	Data transformation & metrics
 
-📸 Sample Dashboard
-
-🚀 How to Use
-Clone this repository
-
-Open the .sql file and run in MySQL Workbench
-
-Connect Excel to your MySQL DB using ODBC
-
-Refresh PivotTables and use the dashboard sheet for analysis
+- `MySQL Workbench:	Database design & SQL queries`
+- `MySQL ODBC: Connecting Database to Excel`
+- `Microsoft Excel:	Data analysis & visualization`
+- `SQL:	Data transformation & metrics`
 
 📚 Learnings
 This project helped reinforce concepts in:
 
-SQL data analysis
+- `SQL data analysis`
 
-Excel dashboarding best practices
+- `Excel dashboarding best practices`
 
-End-to-end BI workflow
+- `End-to-end BI workflow`
 
-Storytelling with data
+- `Storytelling with data`
 
 🙌 Acknowledgment
 Thanks to the creators of the dataset and the Excel + SQL community for sharing knowledge and resources that helped in shaping this project.
@@ -173,11 +159,12 @@ Thanks to the creators of the dataset and the Excel + SQL community for sharing 
 Feel free to connect with me on LinkedIn or open an issue if you have questions!
 
 📁 Project Files
-Pizza sale Analysis.sql – SQL scripts for DB creation and KPIs
 
-Pizza_sales_database.xlsx – Raw data + PivotTables
+- `Pizza sale Analysis.sql – SQL scripts for DB creation and KPIs`
 
-Pizza_sales_Dashboard.png – Dashboard snapshot
+- `Pizza_sales_database.xlsx – Raw data + PivotTables`
+
+- `Pizza_sales_Dashboard.png – Dashboard snapshot`
 
 ⭐ If you liked this project, don't forget to give it a star!
 
