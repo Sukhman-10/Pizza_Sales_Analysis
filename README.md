@@ -46,12 +46,13 @@ CREATE TABLE pizza_sales (
   pizza_category VARCHAR(50),
   pizza_ingredients VARCHAR(200),
   pizza_name VARCHAR(50)
-); '''
+);
+```
 
 📊 SQL Analysis
 The following KPIs were calculated using SQL:
 
-- 'Total Revenue'
+Total Revenue
 
 Total Orders
 
