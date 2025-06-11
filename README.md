@@ -48,8 +48,6 @@ CREATE TABLE pizza_sales (
   pizza_name VARCHAR(50)
 )
 
-```sql
-
 📊 SQL Analysis
 
 The following KPIs were calculated using SQL:
