@@ -46,7 +46,9 @@ CREATE TABLE pizza_sales (
   pizza_category VARCHAR(50),
   pizza_ingredients VARCHAR(200),
   pizza_name VARCHAR(50)
-);
+)
+
+```sql
 
 📊 SQL Analysis
 
