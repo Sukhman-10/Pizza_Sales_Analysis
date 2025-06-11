@@ -46,10 +46,9 @@ CREATE TABLE pizza_sales (
   pizza_category VARCHAR(50),
   pizza_ingredients VARCHAR(200),
   pizza_name VARCHAR(50)
-)
+);
 
 📊 SQL Analysis
-
 The following KPIs were calculated using SQL:
 
 Total Revenue
@@ -69,11 +68,9 @@ Sales by Category & Size
 Top & Bottom Performing Pizzas
 
 Sample KPI Query:
-
 SELECT SUM(ROUND(total_price, 2)) AS Total_Revenue FROM pizza_sales;
 
 🔗 Excel Integration
-
 Data was imported into Excel using the MySQL ODBC Connector:
 
 Install MySQL ODBC driver.
@@ -88,12 +85,11 @@ This allowed real-time data refresh and seamless pivot table construction.
 Additional transformations included:
 
 Created a new Order Day column using:
-
 =TEXT([@[order_date]], "dddd")
+
 Structured data into PivotTables for all KPIs and visual components.
 
 📈 Dashboard Visuals
-
 The following charts and visuals were added to the Excel Dashboard:
 
 📊 Column Chart: Daily Orders by Weekday
@@ -115,7 +111,6 @@ Bottom 5 Worst-Selling Pizzas
 📆 Timeline Slicer: Date-based filtering (yearly, monthly, quarterly)
 
 🎨 Dashboard Design
-
 The dashboard was built on a dedicated sheet using a clean and structured layout:
 
 KPIs at the top for quick insights
@@ -127,7 +122,6 @@ Interactive charts at the bottom
 Consistent color schemes and formatting applied for professional look
 
 📌 Key Insights
-
 Classic pizzas lead in both revenue and volume.
 
 Large and XL sizes dominate sales.
@@ -157,7 +151,6 @@ Connect Excel to your MySQL DB using ODBC
 Refresh PivotTables and use the dashboard sheet for analysis
 
 📚 Learnings
-
 This project helped reinforce concepts in:
 
 SQL data analysis
@@ -169,15 +162,12 @@ End-to-end BI workflow
 Storytelling with data
 
 🙌 Acknowledgment
-
 Thanks to the creators of the dataset and the Excel + SQL community for sharing knowledge and resources that helped in shaping this project.
 
 📬 Contact
-
 Feel free to connect with me on LinkedIn or open an issue if you have questions!
 
 📁 Project Files
-
 Pizza sale Analysis.sql – SQL scripts for DB creation and KPIs
 
 Pizza_sales_database.xlsx – Raw data + PivotTables
